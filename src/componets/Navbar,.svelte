@@ -12,3 +12,14 @@
         <Search/>
     </div>
 </div>
+
+<style>
+    .nav-bar{
+        background-color:  #347E68;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+</style>
