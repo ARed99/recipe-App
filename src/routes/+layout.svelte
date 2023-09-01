@@ -5,5 +5,5 @@
 </script>
 
 <slot>
-    
+
 </slot>
