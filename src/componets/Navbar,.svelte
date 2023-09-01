@@ -8,5 +8,7 @@
             Recipe App
         </h1>
     </div>
-   
+    <div class="search-box">
+        <Search/>
+    </div>
 </div>
