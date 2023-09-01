@@ -22,4 +22,11 @@
         justify-content: space-between;
         
     }
+    .title{
+        width: 400px;
+        padding: 10px;
+        display: grid;
+        place-items: center;
+        justify-content: center;
+    }
 </style>
