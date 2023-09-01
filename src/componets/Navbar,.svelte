@@ -29,4 +29,9 @@
         place-items: center;
         justify-content: center;
     }
+    .title h1{
+        color: white;
+        font-family: 'Irish Grover' , cursive;
+        font-size: 50px;
+    }
 </style>
