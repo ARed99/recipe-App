@@ -1,6 +1,8 @@
 <script>
-	import HomeMealCard from "../componets/cards/HomeMealCard.svelte";
+	import HomeMeal from "../componets/cards/HomeMeal.svelte";
+	import SearchResult from "../componets/cards/SearchResult.svelte";
 
 </script>
 
-<HomeMealCard/>
+<HomeMeal/>
+<SearchResult meal={{id:2 , name:"meal name ", area:"england" , category:"chicken"}}/>
