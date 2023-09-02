@@ -1,9 +1,9 @@
 <script lang="ts">
-    export let recipeUrl:string;
+    export let url:string;
 </script>
 
 <div class="recipe-btn">
-    <a href={recipeUrl}>View Recipe ↗</a>
+    <a href={url}>View Recipe ↗</a>
 </div>
 
 <style>
