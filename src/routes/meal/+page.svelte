@@ -2,7 +2,20 @@
 	import ViewMeal from "../../componets/cards/ViewMeal.svelte";
 
 </script>
-<h1>
-    recipe
-</h1>
-<ViewMeal/>
+<div class="view">
+    <div class="box">
+        <ViewMeal/>
+
+    </div>
+    
+</div>
+
+<style>
+    .view{
+        width: 100%;
+        
+    }
+    .box{
+        padding: 20px;
+    }
+</style>
