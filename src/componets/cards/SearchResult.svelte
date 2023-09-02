@@ -17,9 +17,12 @@
         <h3>
            Category: {meal.category}
         </h3>
-        <div class="btn">
-            <RecipeViewBtn url={`/meal/${meal.id}`}/>
-        </div>
+       {#if meal.btn}
+       <div class="btn">
+        <RecipeViewBtn url={`/meal/${meal.id}`}/>
+    </div>
+        
+       {/if}
     </div>
 </div>
 
