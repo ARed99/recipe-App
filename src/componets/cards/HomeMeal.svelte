@@ -7,7 +7,7 @@
         <img src="https://www.themealdb.com/images/media/meals/vpxyqt1511464175.jpg" alt="" width="300px" height="400px">
     </div>
     <div class="recipe-link">
-        <RecipeViewBtn recipeUrl={"dasdad"}/>
+        <RecipeViewBtn url={"dasdad"}/>
     </div>
 </div>
 

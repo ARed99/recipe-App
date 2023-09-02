@@ -1,5 +1,6 @@
-<script>
+<script lang="ts">
 	import RecipeViewBtn from "../Buttons/RecipeViewBtn.svelte";
+    export let meal:any;
 
 </script>
 <div class="search-result-card">
@@ -8,16 +9,16 @@
     </div>
     <div class="details">
         <h1>
-            meal name here
+           {meal.name}
         </h1>
         <h3>
-            Area:
+            Area: {meal.area}
         </h3>
         <h3>
-           Category:
+           Category: {meal.category}
         </h3>
         <div class="btn">
-            <RecipeViewBtn url={"fasdff"}/>
+            <RecipeViewBtn url={`/meal/${meal.id}`}/>
         </div>
     </div>
 </div>
@@ -29,9 +30,7 @@
      
         display: flex;
         justify-content: start;
-        -webkit-box-shadow: 0px 9px 12px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 9px 12px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 9px 12px 0px rgba(0,0,0,0.75);
+  border-radius: 20px;
     }
     .thumb{
         width: 400px;
@@ -41,6 +40,7 @@ box-shadow: 0px 9px 12px 0px rgba(0,0,0,0.75);
         width: 400px;
         height: 300px;
         object-fit: cover;
+        border-radius: 20px;
     }
     .details{
         padding: 20px;
