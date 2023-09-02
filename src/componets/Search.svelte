@@ -23,4 +23,7 @@
         margin-left: 0px;
         border: none;
     }
+    .search-btn:hover{
+        background-color: aliceblue;
+    }
 </style>
