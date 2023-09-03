@@ -1,13 +1,13 @@
 <script>
 	import RecipeViewBtn from "../Buttons/RecipeViewBtn.svelte";
-
+    export let meal;
 </script>
 <div class="home-card">
     <div class="thumb">
-        <img src="https://www.themealdb.com/images/media/meals/vpxyqt1511464175.jpg" alt="" width="300px" height="400px">
+        <img src={meal.strMealThumb} alt="" width="300px" height="400px">
     </div>
     <div class="recipe-link">
-        <RecipeViewBtn url={"dasdad"}/>
+        <RecipeViewBtn url={`/meal/${meal.idMeal}`}/>
     </div>
 </div>
 
