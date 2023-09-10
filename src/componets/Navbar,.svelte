@@ -4,9 +4,11 @@
 </script>
 <div class="nav-bar">
     <div class="title">
+        <a href="/">
         <h1>
             Recipe App
         </h1>
+    </a>
     </div>
     <div class="search-box">
         <Search/>
@@ -14,6 +16,10 @@
 </div>
 
 <style>
+    a{
+        text-decoration: none;
+    }
+ 
     .nav-bar{
         background-color:  #347E68;
         width: 100%;
@@ -33,5 +39,8 @@
         color: white;
         font-family: 'Irish Grover' , cursive;
         font-size: 50px;
+    }
+    .title h1:hover{
+        color: #1f5d4a;
     }
 </style>
