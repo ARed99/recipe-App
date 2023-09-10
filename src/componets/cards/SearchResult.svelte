@@ -5,7 +5,7 @@
 </script>
 <div class="search-result-card">
     <div class="thumb">
-        <img src="https://www.themealdb.com/images/media/meals/vpxyqt1511464175.jpg" alt="">
+        <img src={meal.thumb} alt="">
     </div>
     <div class="details">
         <h1>

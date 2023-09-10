@@ -7,7 +7,7 @@ export let data;
 </script>
 <div class="view">
     <div class="box">
-        <ViewMeal/>
+        <ViewMeal mealData={data.meal}/>
 
     </div>
     

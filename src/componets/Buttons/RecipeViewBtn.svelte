@@ -3,7 +3,7 @@
 </script>
 
 <div class="recipe-btn">
-    <a href={url}>View Recipe ↗</a>
+    <a data-sveltekit-preload-data href={url}>View Recipe ↗</a>
 </div>
 
 <style>
