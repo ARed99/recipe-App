@@ -1,6 +1,6 @@
 <script lang="ts">
 	import RecipeViewBtn from "../Buttons/RecipeViewBtn.svelte";
-    export let meal:any;
+    export let meal
 
 </script>
 <div class="search-result-card">
