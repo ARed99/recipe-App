@@ -4,7 +4,7 @@
 </script>
 <div class="nav-bar">
     <div class="title">
-        <a href="/">
+        <a data-sveltekit-preload-data href="/">
         <h1>
             Recipe App
         </h1>
