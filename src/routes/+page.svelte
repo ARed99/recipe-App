@@ -2,9 +2,7 @@
 	import { onMount } from 'svelte';
 
 	import HomeMeal from '../componets/cards/HomeMeal.svelte';
-	onMount(() => {
-		get();
-	});
+	
 
 	const MAX_MEAL_NUMBER = 10;
 	const get = async () => {
